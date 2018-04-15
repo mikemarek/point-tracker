@@ -27,7 +27,7 @@ public class ObjectPool : MonoBehaviour
      * @param   null
      * @return  null
     **/
-	void Start()
+	void Awake()
     {
         pool = new List<GameObject>();
         _instance = this;
@@ -82,13 +82,6 @@ public class ObjectPool : MonoBehaviour
     }
 
 
-    /**
-    **/
-    public static ObjectPool Instance
-    {
-        get
-        {
-            return _instance;
-        }
-    }
+    // Getter method for class singleton instance.
+    public static ObjectPool Instance { get { return _instance; } }
 }

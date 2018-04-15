@@ -155,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObject: {fileID: 1680062068866700, guid: d38d8b423f5fd064abd0c29cbe9a2f98,
     type: 2}
-  initialPoolSize: 100
+  initialPoolSize: 0
   shouldExpand: 1
 --- !u!1 &162802441
 GameObject:
@@ -313,6 +313,7 @@ GameObject:
   - component: {fileID: 2028827927}
   - component: {fileID: 2028827926}
   - component: {fileID: 2028827925}
+  - component: {fileID: 2028827928}
   m_Layer: 0
   m_Name: Test Mesh
   m_TagString: Untagged
@@ -374,3 +375,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &2028827928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2028827924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff57b05af7af07e4fb8b7735bd9eb6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
