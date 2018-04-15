@@ -27,7 +27,7 @@ public class ObjectPool : MonoBehaviour
      * @param   null
      * @return  null
     **/
-	void Awake()
+    void Awake()
     {
         pool = new List<GameObject>();
         _instance = this;
@@ -40,7 +40,7 @@ public class ObjectPool : MonoBehaviour
 
         for (uint i = 0; i < initialPoolSize; i++)
             AddObjectToPool();
-	}
+    }
 
 
     /**
